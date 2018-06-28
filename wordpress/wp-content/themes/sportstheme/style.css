@@ -1,0 +1,190 @@
+/*
+Theme Name: Sports Theme
+Author: Lester 
+Description: A simple theme using bootstrap
+Template: sportstheme
+Version: 0.0.1
+Tags: bootstrap
+*/
+/* line 10, sass/style.scss */
+hr {
+  border: 1px solid #f1f1f1;
+  margin: 0;
+}
+
+/* line 15, sass/style.scss */
+.navbar {
+  margin: 0;
+}
+
+/* line 20, sass/style.scss */
+#navbarMenu .navbar-nav li.active > a {
+  font-weight: bold;
+  color: #411B66;
+}
+
+/* line 25, sass/style.scss */
+.bg-banner {
+  background-color: #411B66;
+}
+
+/* line 36, sass/style.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 40, sass/style.scss */
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 20px;
+}
+
+/* line 45, sass/style.scss */
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+/* line 59, sass/style.scss */
+.wrapper .top-content {
+  padding: 30px;
+}
+/* line 62, sass/style.scss */
+.wrapper .top-content .row .top-right-content {
+  padding: 30px 60px;
+}
+/* line 68, sass/style.scss */
+.wrapper .readmore a {
+  color: #ff9900 !important;
+}
+/* line 72, sass/style.scss */
+.wrapper .top2 {
+  top: -70px;
+}
+/* line 76, sass/style.scss */
+.wrapper .top3 {
+  top: -120px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 83, sass/style.scss */
+  .wrapper .top1 {
+    top: 0px;
+  }
+  /* line 87, sass/style.scss */
+  .wrapper .top2 {
+    top: 0px;
+  }
+  /* line 91, sass/style.scss */
+  .wrapper .top3 {
+    top: 0px;
+  }
+}
+/* line 97, sass/style.scss */
+.borderBottom {
+  border-bottom: 2px solid #f1f1f1;
+  padding: 5px 0;
+  color: #ff9900;
+}
+
+/* line 102, sass/style.scss */
+.footer-title {
+  background-color: #411B66;
+}
+/* line 104, sass/style.scss */
+.footer-title .row {
+  padding: 10px 10px;
+}
+/* line 110, sass/style.scss */
+.footer-title .row .footerMenu p a {
+  color: #ccc;
+}
+
+/* line 120, sass/style.scss */
+.copyright {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  height: 100px;
+  padding-top: 30px;
+}
+
+/* line 130, sass/style.scss */
+.aboutUs-container {
+  padding: 50px;
+}
+/* line 133, sass/style.scss */
+.aboutUs-container h1 {
+  color: #411B66;
+}
+/* line 137, sass/style.scss */
+.aboutUs-container .top-content {
+  padding: 50px 0;
+}
+
+/* line 144, sass/style.scss */
+.teams-container {
+  padding: 10px;
+}
+/* line 147, sass/style.scss */
+.teams-container h1 {
+  font-style: italic;
+  color: #411B66;
+}
+/* line 152, sass/style.scss */
+.teams-container .roster-name {
+  margin: 5px auto;
+  width: 280px;
+  background-color: #411B66;
+}
+/* line 157, sass/style.scss */
+.teams-container .roster-name h3 {
+  color: #fff;
+}
+/* line 160, sass/style.scss */
+.teams-container .roster-name p {
+  color: #ff9900;
+  padding-bottom: 3px;
+}
+
+/* line 168, sass/style.scss */
+.fans-container {
+  padding: 15px;
+}
+/* line 171, sass/style.scss */
+.fans-container h1 {
+  font-style: italic;
+  color: #411B66;
+}
+/* line 176, sass/style.scss */
+.fans-container .readmore a {
+  color: #ff9900 !important;
+}
+/* line 180, sass/style.scss */
+.fans-container .fans-desc h3 {
+  color: #411B66;
+}
+
+/* line 186, sass/style.scss */
+.contact-container {
+  background-color: #411B66;
+  padding: 15px;
+  width: 800px;
+  border-radius: 7px;
+}
+/* line 192, sass/style.scss */
+.contact-container h1 {
+  font-style: italic;
+  color: #ff9900;
+}
+/* line 197, sass/style.scss */
+.contact-container label {
+  color: #ff9900;
+}

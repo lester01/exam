@@ -1,0 +1,200 @@
+/*
+Theme Name: Sports Theme Child
+Author: Lester 
+Description: A simple theme using bootstrap
+Template: sportstheme
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin: 0;
+}
+
+.navbar {
+	margin: 0;
+}
+
+
+#navbarMenu .navbar-nav li.active > a {
+	font-weight: bold;
+	color: #411B66;
+}
+
+.bg-banner{
+	background-color: #411B66;
+	//height: 250px;
+}
+
+//.nav-bg-color {
+//	background-color:#563d7c !important;
+//	ul li a{
+//		color: #cbbde2 !important;
+//	}
+//}
+.bold {
+	font-weight: bold;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius:20px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}
+
+.wrapper{
+	.top-content{
+		padding: 30px;
+		.row{
+			.top-right-content{
+				padding: 30px 60px;
+			}
+		}
+	}
+
+	.readmore a{
+		color: #ff9900 !important;
+	}
+
+	.top2{
+		top: -70px;
+	}
+
+	.top3{
+		top: -120px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+    	.top1{
+			top: 0px;
+		}
+
+		.top2{
+			top: 0px;
+		}
+
+		.top3{
+			top: 0px;
+		}
+    }
+}
+
+.borderBottom{
+	border-bottom: 2px solid #f1f1f1;
+	padding: 5px 0;
+	color: #ff9900;
+}
+.footer-title {
+	background-color: #411B66;
+	.row {
+		padding: 10px 10px;
+
+		.footerMenu {
+			p {
+
+				a{
+					color: #ccc;
+				}
+				
+			}
+		}
+	}
+	
+}
+
+.copyright {
+  background-color: #000;
+  color:#fff;
+  font-size:14px;
+  height:100px;
+  padding-top:30px;
+}
+
+
+//About Us page CSS
+.aboutUs-container {
+	padding: 50px;
+
+	h1 {
+		color: #411B66;
+	}
+
+	.top-content{
+		padding: 50px 0;
+	}
+}
+
+
+//TEAM CSS
+.teams-container {
+	padding: 10px;
+	
+	h1 {
+		font-style: italic;
+		color: #411B66;
+	}
+
+	.roster-name {
+		margin: 5px auto;
+		width: 280px;
+		background-color: #411B66;
+
+		h3 {
+			color: #fff;
+		}
+		p {
+			color: #ff9900;
+			padding-bottom: 3px;
+		}
+	}
+}
+
+//FANS CSS
+.fans-container {
+	padding: 15px;
+	
+	h1 {
+		font-style: italic;
+		color: #411B66;
+	}
+
+	.readmore a {
+	    color: #ff9900 !important;
+	}
+	.fans-desc {
+		h3 {
+			color: #411B66;
+		}
+	}
+}
+
+.contact-container{
+	background-color:#411B66;
+	padding: 15px;
+	width: 800px;
+	border-radius: 7px;
+
+	h1 {
+		font-style: italic;
+		color: #ff9900;
+	}
+
+	label {
+		color: #ff9900;
+	}
+}
